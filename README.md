@@ -38,6 +38,6 @@ The core uses a 2-bit control signal (`mode`) to dynamically reorder 64-bit inpu
 
 ## Simulation & Verification
 
-# EDA Playground Link
+### EDA Playground Link
 https://edaplayground.com/x/wsDk
 
