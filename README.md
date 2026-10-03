@@ -38,9 +38,6 @@ The core uses a 2-bit control signal (`mode`) to dynamically reorder 64-bit inpu
 
 ## Simulation & Verification
 
-The included testbench (`tb_Sure_Encryptor`) iterates through all four endianness modes using a test vector `64'h0123456789ABCDEF` to verify serial output accuracy.
+# EDA Playground Link
+https://edaplayground.com/x/wsDk
 
-```bash
-# Run with ModelSim / QuestaSim
-vlog -sv Sure_Encryptor.sv tb_Sure_Encryptor.sv
-vsim -c tb_Sure_Encryptor -do "run -all"
